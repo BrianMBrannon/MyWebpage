@@ -15,12 +15,11 @@
         		background: rgba(255,255,255,0.5);
         		background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.9), rgba(255, 255 ,255, 0));
         		background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.9), rgba(255, 255 ,255, 0));
-        		margin: -50px 400px 400px;
+        		margin: -50px 33% 33%;
         		padding: 0;
         		top: 0px;
         		overflow: hidden;
         		text-align: center;
-        		max-height: 900px;
         	}
         	.my_face {
         		position:absolute;
@@ -31,14 +30,26 @@
         		left: 50%;
         		margin: -40px 0 0 -125px;
         	}
-        	
+
         	h1 {
         		color: rgba(3,3,3,1);
         		font-size: 70px;
         	}
-        	
+
         	.beneath_image {
         		height: 150px;
+        	}
+        	.content {
+        		color: rgba(0,0,0,1);
+        		background: rgba(255, 255, 255, 0.70);
+        		position: absolute;
+        		width: 80%;
+        		height: 50%;
+        		top: 0;
+        		margin: 350px 100px 0 150px;
+        		border: 1px solid black;
+        		border-radius: 5px;
+        		overflow:auto;
         	}
         </style>
     </head>
@@ -48,6 +59,11 @@
     		<img class="my_face" src="images/bwbrian.jpg">
     		<div class="beneath_image">Hello</div>
     	</header>
-        
+    	<div class="content">
+    		This is another div.
+    		<br><br><br><br>
+    		My oh my is there a lot of stuff here.<br>
+    		<img src="http://fc02.deviantart.net/fs71/i/2010/165/0/4/Wobbuffet_Hat_by_Kimba616.jpg">
+    	</div>
     </body>
 </html>
